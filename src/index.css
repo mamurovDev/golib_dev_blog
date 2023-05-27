@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Fasthand&family=Nunito+Sans:wght@200&family=Roboto:ital,wght@0,100;1,300;1,500&family=Wix+Madefor+Display:wght@600&display=swap');.swiper {
+  border-radius: 5px !important;
+}
+
+.custom-pagination {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+}
+
+img {
+  width: 100% !important;
+  object-fit: cover !important;
+  height: auto;
+}
+
+.error-404 img {
+  width: 300px !important;
+}
+
+.content a,
+.content h1,
+.content p,
+.content li {
+  background: transparent !important;
+}
+
+.short-content {
+  display: inline-block;
+}
+
+.short-content::first-letter {
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.form-check-input {
+  margin-left: 0 !important;
+}
+
+.post-meta {
+  margin-top: 15px !important;
+}
+
+.img-bg,
+.img-fluid {
+  object-fit: cover !important;
+}
+
+.offcanvas {
+  height: 100% !important;
+  background-image: url("/assets/img/search.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  object-fit: cover;
+}
+
+.most, .title, a {
+   font-family: 'Alkatra', cursive!important;
+   font-family: 'Fasthand', cursive!important;
+   font-family: 'Nunito Sans', sans-serif!important;
+   font-family: 'Roboto', sans-serif!important;
+   font-family: 'Wix Madefor Display', sans-serif!important;
+}
+
+.most:hover, a:hover {
+  color: rgb(23, 23, 149)!important;
+}
+
+
